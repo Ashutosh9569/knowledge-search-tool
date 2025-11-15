@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal Knowledge Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Knowledge Discovery Tool</h1>
+    </header>
+
+    <div class="container">
+        <section class="search-controls">
+            <input type="search" id="search-bar" placeholder="Search documents, projects, and assets...">
+            
+            <div class="filters">
+                <select id="category-filter">
+                    <option value="all">All Categories</option>
+                    <option value="report">Report</option>
+                    <option value="presentation">Presentation</option>
+                    <option value="asset">Asset</option>
+                    <option value="guide">Guide</option>
+                </select>
+
+                <select id="team-filter">
+                    <option value="all">All Teams</option>
+                    <option value="marketing">Marketing</option>
+                    <option value="sales">Sales</option>
+                    <option value="product">Product</option>
+                    <option value="devops">DevOps</option>
+                </select>
+            </div>
+        </section>
+
+        <main id="results-container">
+            <p class="placeholder-text">Enter a search term to find your files.</p>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
