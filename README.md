@@ -11,7 +11,7 @@ A smart internal search tool built for the MarTech competition. This application
 
 ## 📸 Application Preview
 
-![A screenshot of the Knowledge Discovery Tool's UI, showing the search bar, filters, and a list of results.]([knowledgesearch.png])
+![A screenshot of the Knowledge Discovery Tool's UI, showing the search bar, filters, and a list of results.](knowledgesearch.png)
 
 
 
