@@ -309,3 +309,7 @@ header h1::after {
         gap: 10px;
     }
 }
+/* Fix for dropdown option visibility in dark mode */
+.filters select option {
+    color: #000;
+}
